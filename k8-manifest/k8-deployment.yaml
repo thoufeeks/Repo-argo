@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: tetris-deployment
 spec:
-  replicas: 4 # You can adjust the number of replicas as needed
+  replicas: 1 # You can adjust the number of replicas as needed
   selector:
     matchLabels:
       app: tetris
